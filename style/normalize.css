@@ -1,0 +1,198 @@
+/* Normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Elementos HTML 1 */
+html {
+    line-height: 1.15;
+    /* 1 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+}
+
+/* Ativos gerais 2 */
+body {
+    margin: 0;
+}
+
+main {
+    display: block;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+/* Grupos de conteúdo 3 */
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Elementos de texto 4 */
+p {
+    display: block;
+}
+
+/* Listas 5 */
+ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Elementos de formulário 6 */
+button, input, select, textarea {
+    margin: 0;
+}
+
+/* Estilos padrão do botão 7 */
+button, input {
+    overflow: visible;
+}
+
+/* Estilos de listas em navegadores incorporados / intermediários 8 */
+optgroup {
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Estilos visuais 9 */
+a {
+    background-color: transparent;
+}
+
+/* Sem decoração para links que não estão 'underlined' manualmente 10 */
+a:active, a:hover {
+    outline-width: 0;
+}
+
+/* Sem estilos visuais inconsistentes em navegadores incorporados / intermediários 11 */
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted;
+}
+
+/* Elementos de substituição de conteúdo 12 */
+pre, code, kbd, samp {
+    font-family: monospace, monospace;
+    /* 1 */
+    font-size: 1em;
+    /* 2 */
+}
+
+/* Layout de tabela de formulário com base nas recomendações do W3C 13 */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Atualização do estilo do bloco de texto nas seções 14 */
+fieldset {
+    margin: 0;
+    padding: 0;
+}
+
+/* Correções para o iOS e Safari 1 */
+/* Estilos de borda para tabelas no Safari 3 */
+td,
+th {
+    border: 1px solid #000;
+}
+
+/* Estilos de largura de célula para tabelas no Safari 4 */
+th {
+    width: 10em;
+}
+
+/* Adiciona background-color ao status da lista invertida no Safari 6.1 / 7.x 5 */
+ol {
+    list-style: decimal;
+    list-style: inside;
+}
+
+/* Correções para o IE 1 */
+/* Remova o espaçamento e a exibição para o Visual de Mídia Moderno (recomendado: transformar em 'normal' para outros navegadores) 2 */
+summary {
+    display: list-item;
+}
+
+/* Correções para Edge 2 */
+/* Correções para problemas de layout do IE11 e Edge 2.1 */
+@media screen and (min-width: 0\0) {
+
+    /* Adiciona borda a elementos sem margens 2.2 */
+    hr {
+        margin: 0;
+    }
+}
+
+/* Correções para o Safari 1 */
+/* Adiciona um preenchimento interno invisível para elementos visíveis, mas invisíveis 1.1 */
+:not(pre) {
+    display: block;
+}
+
+/* Correções para o Chrome e Safari 1 */
+/* Remove o estilo de preenchimento interno para o último elemento filho do tbody 1.1 */
+tbody {
+    display: table-row-group;
+}
+
+/* Correções para o IE10 e IE11 2 */
+/* Correções para exibição sem esperar 2.1 */
+select {
+    word-wrap: normal;
+}
+
+/* Adiciona fundo não escalável a elementos de imagem no IE 3 */
+/* Correções para o IE 11 3.1 */
+svg:not(:root) {
+    overflow: hidden;
+}
+
+/* Estilo de centralização para marcadores sem suporte 4 */
+/* Correções para o IE 11 4.1 */
+@supports (-ms-ime-align: auto) {
+
+    /* Adiciona propriedade -ms-ime-align ao suporte de expansão 4.2 */
+    svg:not(:root) {
+        overflow: visible;
+    }
+}
+
+/* Correções para o IE 1 */
+/* Corrige a largura incorreta e a quebra de palavras no IE 1.1 */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+
+    /* Corrige quebras de palavra e larguras incorretas 1.2 */
+    body {
+        margin: 0;
+    }
+}
+
+/* Correções para o IE 10 e IE 11 2 */
+/* Correções para espaçamentos verticais inconsistentes no IE 10 e IE 11 2.1 */
+@media screen and (min-width: 0\0) {
+
+    /* Corrige espaçamentos verticais inconsistentes 2.2 */
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    main,
+    menu,
+    nav,
+    section,
+    summary {
+        display: block;
+    }
+}

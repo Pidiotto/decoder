@@ -25,19 +25,24 @@
     <main class="corpo">
         <div class="left-section">
             <!-- Campo para digitar o texto a ser encriptografado -->
-            <input type="text" id="texto" placeholder="Digite o texto...">
+            <textarea id="texto" placeholder="Digite o texto..."></textarea>
+
+            <div class="aviso"><img class="alert-icon" src="/img/alert-icon.png">Apenas letras minúsculas e sem acento.
+            </div>
 
             <!-- Botoes para criptografar e descriptografar  -->
-            <div class="Botoes">
-                <button id="criptografar">Criptografar</button>
-                <button id="descriptografar">Descriptografar</button>
+            <div class="botoes__">
+                <button class="common-button" id="criptografar">Criptografar</button>
+                <button class="common-button" id="descriptografar">Descriptografar</button>
             </div>
         </div>
 
         <!-- imagem ao lado direito/centro da página  -->
         <div class="right-section">
-            <img src="/img/looking.svg" alt="Looking">
-            <p>Nenhuma mensagem encontrada. Digite um texto para você criptografar ou descriptografar. </p>
+            <img class="img-looking" src="/img/looking.svg" alt="Looking">
+            <h1>Nenhuma mensagem encontrada.</h1>
+            <h2>Digite um texto para você criptografar ou descriptografar. </h2>
+            <button id="copiar" class="common-button">Copiar</button>
         </div>
 
     </main>

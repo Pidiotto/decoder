@@ -9,16 +9,40 @@
     <link rel="stylesheet" href="/style/normalize.css">
     <!-- estilo css -->
     <link rel="stylesheet" href="/style/style.css">
+    <!-- css de fontes -->
+    <link rel="stylesheet" href="/style/fontes.css">
 
 
     <title>Decoder</title>
 </head>
 
 <body>
+    <header class="logo-topo">
+        <!-- Imagem no canto esquerdo no topo -->
+        <img src="/img/alura-a.png" alt="Logo A de Alura">
+    </header>
 
+    <main class="corpo">
+        <div class="left-section">
+            <!-- Campo para digitar o texto a ser encriptografado -->
+            <input type="text" id="texto" placeholder="Digite o texto...">
 
+            <!-- Botoes para criptografar e descriptografar  -->
+            <div class="Botoes">
+                <button id="criptografar">Criptografar</button>
+                <button id="descriptografar">Descriptografar</button>
+            </div>
+        </div>
+
+        <!-- imagem ao lado direito/centro da página  -->
+        <div class="right-section">
+            <img src="/img/looking.svg" alt="Looking">
+            <p>Nenhuma mensagem encontrada. Digite um texto para você criptografar ou descriptografar. </p>
+        </div>
+
+    </main>
     <!-- script -->
-    <script src="/script/script.js"></script>
+    <!-- <script src="/script/script.js"></script> -->
 </body>
 
 </html>

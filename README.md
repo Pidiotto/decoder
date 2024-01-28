@@ -1,28 +1,37 @@
-# Criptografia Web
+# Decoder
 
-Este é um projeto simples de criptografia web que permite aos usuários criptografar e descriptografar mensagens.
+![Decoder Desktop](https://github.com/Pidiotto/decoder/blob/main/print-desk.png)
+![Decoder Mobile](https://github.com/Pidiotto/decoder/blob/main/print-mobile.png)
 
-## Estrutura do Projeto
+Projeto Decoder, desenvolvido com foco em manter o design adaptativo em telas diferentes, como se fosse destinado a um cliente com especificações fixas. O projeto foi construído em etapas, começando pela implementação da estrutura HTML, seguida pela estilização completa em CSS e, por último, a adição das funcionalidades em JavaScript.
 
-- `index.html`: Arquivo principal da página web.
-- `style.css`: Arquivo de estilo para estilizar a página.
-- `script.js`: Arquivo JavaScript contendo lógica de criptografia/descriptografia.
-- `fonts/`: Pasta que contém as fontes utilizadas no projeto.
-- `img/`: Pasta que contém as imagens utilizadas no projeto.
+## Tecnologias Utilizadas
 
-## Instruções de Uso
+![HTML](https://img.shields.io/badge/HTML-5E5E5E?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-1. Abra o arquivo `index.html` em um navegador da web.
-2. Na parte superior da página, você verá uma imagem e, no centro, um campo de texto para digitar o texto a ser criptografado. Há também botões para criptografar e descriptografar.
-3. Ao lado direito/centro da página, você encontrará outra imagem e um texto indicando "Nenhuma mensagem encontrada. Digite um texto que você deseja criptografar ou descriptografar."
+## Teste Agora!
 
-## Pré-requisitos
+Acesse o [Decoder](https://decoder-nine.vercel.app/) para experimentar a aplicação em produção.
 
-Certifique-se de ter um navegador da web instalado para visualizar a aplicação.
+---
 
-## Contribuição
+**Observações Pessoais:**
 
-Sinta-se à vontade para contribuir com melhorias ou correções para este projeto. Basta fazer um fork do repositório, criar uma branch, fazer suas alterações e enviar um pull request.
+- O projeto Decoder foi uma jornada fascinante, iniciando com a construção da estrutura HTML para garantir uma base sólida.
+- O desenvolvimento do CSS foi uma oportunidade para criar um design atraente, mantendo-o imutável para atender às necessidades específicas.
+- A implementação do JavaScript adicionou funcionalidades cruciais, como criptografia, descriptografia e a capacidade de copiar o texto resultante.
+- Focado na responsividade, o projeto adapta-se perfeitamente a dispositivos desktop, tablets e celulares, garantindo uma experiência de usuário consistente.
+
+---
+
+**Notas do Desenvolvedor:**
+
+- Projeto finalizado para atender aos requisitos do desafio.
+- Mínimas alterações feitas no design original, mantendo-o imutável.
+- Implementação de funcionalidades de criptografia e descriptografia conforme as regras estabelecidas.
+- Deploy do projeto para testes disponível [aqui](https://decoder-nine.vercel.app/).
 
 ## Licença
 

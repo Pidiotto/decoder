@@ -1,7 +1,9 @@
 # Decoder
 
-![Decoder Desktop](https://github.com/Pidiotto/decoder/blob/main/print-desk.png)
-![Decoder Mobile](https://github.com/Pidiotto/decoder/blob/main/print-mobile.png)
+<p align="center">
+  <img src="https://github.com/Pidiotto/decoder/blob/main/print-desk.png" title="screenshot" alt="screenshot do jogo" width="400">
+  <img src="https://github.com/Pidiotto/decoder/blob/main/print-mobile.png" title="screenshot" alt="screenshot do jogo" width="400">
+</p>
 
 Projeto Decoder, desenvolvido com foco em manter o design adaptativo em telas diferentes, como se fosse destinado a um cliente com especificações fixas. O projeto foi construído em etapas, começando pela implementação da estrutura HTML, seguida pela estilização completa em CSS e, por último, a adição das funcionalidades em JavaScript.
 

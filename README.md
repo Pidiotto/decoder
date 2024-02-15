@@ -33,7 +33,7 @@ Acesse o [Decoder](https://decoder-nine.vercel.app/) para experimentar a aplica�
 - Projeto finalizado para atender aos requisitos do desafio.
 - Mínimas alterações feitas no design original, mantendo-o imutável.
 - Implementação de funcionalidades de criptografia e descriptografia conforme as regras estabelecidas.
-- Deploy do projeto para testes disponível [aqui](https://decoder-nine.vercel.app/).
+- Deploy do projeto para testes disponível [aqui](https://decoder2.vercel.app/).
 
 ## Licença
 

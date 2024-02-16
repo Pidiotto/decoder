@@ -15,7 +15,7 @@ Projeto Decoder, desenvolvido com foco em manter o design adaptativo em telas di
 
 ## Teste Agora!
 
-Acesse o [Decoder](https://decoder-nine.vercel.app/) para experimentar a aplicação em produção.
+Acesse o [Decoder](https://decoder2.vercel.app/) para experimentar a aplicação em produção.
 
 ---
 
